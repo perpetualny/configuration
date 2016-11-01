@@ -1,0 +1,25 @@
+---
+#
+# edX Configuration
+#
+# github:     https://github.com/edx/configuration
+# wiki:       https://openedx.atlassian.net/wiki/display/OpenOPS
+# code style: https://openedx.atlassian.net/wiki/display/OpenOPS/Ansible+Code+Conventions
+# license:    https://github.com/edx/configuration/blob/master/LICENSE.TXT
+#
+##
+# Defaults for role nodeenv
+# 
+
+#
+# vars are namespaced with the module name.
+#
+nodeenv_role_name: nodeenv
+
+#
+# OS packages
+#
+
+nodeenv_debian_pkgs: []
+
+nodeenv_redhat_pkgs: []
